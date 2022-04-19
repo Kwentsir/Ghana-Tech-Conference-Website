@@ -58,9 +58,10 @@ a {
 }
 
 .homepage-container {
-  background: url(../images/mobile-bg.png) no-repeat;
+  background: url(../images/main-bg.png) no-repeat;
   background-size: cover;
   padding: 1.6rem;
+  text-align: center;
 }
 
 nav {
@@ -80,17 +81,9 @@ nav {
   margin-top: 3.5rem;
 }
 
-.homepage-headline {
-  background-image: url(../images/gradient.jpg);
-  background-position: bottom;
-  background-clip: initial;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 7rem;
+  font-size: 5rem;
   line-height: 1.1;
   font-weight: 700;
   color: var(--color-tertiary);
@@ -194,9 +187,26 @@ h1 {
 }
 
 .speakers-container hr {
-  width: 60px;
+  width: 30px;
   border: solid 1px var(--color-tertiary);
   margin: 1rem auto;
+}
+
+.speakers-container p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.speakers-container div {
+  text-align: center;
+  border: solid 1px var(--color-secondary);
+}
+
+.speakers-container img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
 }
 
 .sponsors-container hr {
@@ -407,6 +417,7 @@ h1 {
     margin: 0 auto;
     position: relative;
     padding: 10.2rem;
+  just
   }
 
   .homepage-hello {
