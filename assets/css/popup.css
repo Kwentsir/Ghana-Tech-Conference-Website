@@ -209,6 +209,83 @@ h1 {
   object-fit: contain;
 }
 
+.past-summit {
+  background-color: #fff;
+}
+
+.past-summit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1.6rem;
+}
+
+.past-summit-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.past-summit-container hr {
+  width: 60px;
+  border: solid 1px var(--color-tertiary);
+  margin: 1rem auto;
+}
+
+.past-summit-container p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.past-summit-list {
+  padding: 4rem 0 2rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.past-summit-items {
+  padding: 1.6rem 0;
+  list-style: none;
+  position: relative;
+}
+
+.past-summit-items img {
+  width: 100%;
+  max-height: 25rem;
+}
+
+.past-summit-content {
+  background-color: rgba(236, 82, 66, 0.62);
+  position: absolute;
+  color: #fff;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.past-summit-content h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0 1.6rem;
+}
+
+.past-summit-content h6 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 1.6rem;
+}
+
 .sponsors-container hr {
   width: 60px;
   border: solid 1px var(--color-tertiary);
@@ -219,55 +296,12 @@ h1 {
   width: 100px;
   height: auto;
   object-fit: contain;
-  transition: all 0.5s ease-in-out;
 }
 
 .footer-logo img {
   width: 10rem;
   height: auto;
   object-fit: contain;
-}
-
-.speakers-list .speaker img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  align-self: start;
-}
-
-.speakers-list {
-  margin: 3rem 0;
-  text-align: left;
-}
-
-.speakers-list .speaker {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  align-items: center;
-  gap: 1.6rem;
-  margin-bottom: 2rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.speakers-list .speaker div h3 {
-  font-size: 1.7rem;
-}
-
-.speakers-list .speaker div h4 {
-  font-size: 1.5rem;
-  font-style: italic;
-  color: var(--color-tertiary);
-}
-
-.speakers-list .speaker div hr {
-  width: 30px;
-  margin-left: 0;
-  border: 1px solid var(--color-secondary);
-}
-
-.speakers-list .speaker div p {
-  font-size: 1.3rem;
-  line-height: 1.3;
 }
 
 .sponsors {
@@ -345,6 +379,11 @@ h1 {
     object-fit: contain;
   }
 
+  .speakers-container img {
+    width: 150px;
+    height: 150px;
+  }
+
   .nav-social {
     display: block;
     background-color: var(--color-primary);
@@ -417,16 +456,21 @@ h1 {
     margin: 0 auto;
     position: relative;
     padding: 10.2rem;
-  just
   }
 
   .homepage-hello {
-    font-size: 2.8rem;
+    font-size: 4.8rem;
+  }
+
+  h1 {
+    font-size: 7rem;
   }
 
   .homepage-intro {
     margin-top: 0.8rem;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
+    background-color: #fff;
+    padding: 2.5rem;
   }
 
   .homepage-programs-container {
@@ -447,28 +491,21 @@ h1 {
     gap: 0.2rem;
   }
 
-  .programs-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
+  .homepage-location {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-top: 2rem;
   }
 
-  .speakers-container h2 {
-    font-size: 2.2rem;
+  .speakers-container p {
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
   }
 
-  .homepage-programs-content .special3 {
-    border: 3px solid #fff;
-  }
-
-  .speakers-list {
-    max-width: 80rem;
-    margin: 4rem auto;
+  .past-summit-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-gap: 1rem;
   }
 
   .sponsors-slot {
