@@ -178,6 +178,7 @@ h1 {
 .homepage-speakers {
   background-color: #fff;
   padding: 2.1rem;
+  align-items: center;
 }
 
 .speakers-container h2 {
