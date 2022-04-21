@@ -13,7 +13,20 @@
 [Live Demo Link](https://kwentsir.github.io/Capstone-Project-1/)
 
 ### Video Presentation
+
 [Video presentation link](https://www.loom.com/share/4d2a27daabad4ef8ac2181914aea8bb7)
+
+## Snapshots
+
+![Mobile Main Page](./assets/images/Mobile%20Main%20Page.png)
+
+![Mobile About Page](./assets/images/Mobile%20About%20Page.png)
+
+![Desktop Main Page](./assets/images/Desktop%20Main%20Page.png)
+
+![Desktop About Page](./assets/images/Desktop%20About%20Page.png)
+
+![Code Snapshot](./assets/images/Code.PNG)
 
 ## Getting Started
 
@@ -24,7 +37,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Joseph Kwesi Kwentsir**
-
 
 ## 🤝 Contributing
 
