@@ -57,6 +57,46 @@ a {
   display: none;
 }
 
+.nav-popup {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: var(--color-tertiary);
+  z-index: 100;
+  padding-left: 1rem;
+}
+
+.close-nav {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 0.8rem;
+  right: 1.8rem;
+  fill: var(--color-primary);
+}
+
+.nav-poplinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 5rem;
+}
+
+.nav-links li:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.nav-poplink {
+  font-size: 3rem;
+  color: var(--color-secondary);
+}
+
 .homepage-container {
   background: url(../images/main-bg.png) no-repeat;
   background-size: cover;
@@ -436,6 +476,11 @@ h1 {
     gap: 3rem;
     margin-right: 1.6rem;
     list-style: none;
+  }
+
+  .nav-links li:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
   }
 
   .nav-link {
