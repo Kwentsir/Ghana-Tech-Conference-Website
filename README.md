@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Ghana Tech Summit 2022
 
-You can use the [editor on GitHub](https://github.com/Kwentsir/Capstone-Project-1/edit/capstone-1/README.md) to maintain and preview the content for your website in Markdown files.
+> This website was created in fulfillment of the requirement for HTML/CSS capstone project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Built With
 
-### Markdown
+- HTML
+- CSS
+- JavaScript
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Live Demo
 
-```markdown
-Syntax highlighted code block
+[Live Demo Link](https://kwentsir.github.io/Capstone-Project-1/)
 
-# Header 1
-## Header 2
-### Header 3
+### Video Presentation
+[Video presentation link](https://www.loom.com/share/4d2a27daabad4ef8ac2181914aea8bb7)
 
-- Bulleted
-- List
+## Getting Started
 
-1. Numbered
-2. List
+To get a local copy up and running follow these simple example steps.
 
-**Bold** and _Italic_ and `Code` text
+- Copy this link `https://github.com/Kwentsir/Capstone-Project-1`.
 
-[Link](url) and ![Image](src)
-```
+## Authors
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+👤 **Joseph Kwesi Kwentsir**
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kwentsir/Capstone-Project-1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 🤝 Contributing
 
-### Support or Contact
+Contributions, issues, and feature requests are welcome!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Attributions
+
+This web design was inspired by [Cindy Shin](https://www.behance.net/adagio07)
+on [this idea](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
