@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kwentsir.github.io/Capstone-Project-1/)
+[Live Demo Link](https://kwentsir.github.io/Ghana-Tech-Conference-Website/)
 
 ### Video Presentation
 
